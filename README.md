@@ -1,30 +1,108 @@
-# Beautiful flower bouquet
+# 💐 Kalp Buketi - Romantik Çiçek Uygulaması
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Bu proje, sevgiliniz için hazırlanmış özel bir romantik çiçek bukleti uygulamasıdır. İnteraktif animasyonlar ve güzel mesajlarla dolu bir sürpriz deneyimi sunar.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/blgsyr5461-9700s-projects/v0-beautiful-flower-bouquet)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/c2jIp9fXoXM)
+## 🌟 Özellikler
 
-## Overview
+- **İnteraktif Hediye Kutusu**: Tıklayarak açabileceğiniz animasyonlu bir hediye kutusu
+- **Çiçek Buketi Animasyonu**: Açılan kutudan çıkan güzel çiçek bukleti
+- **Kalp Yağmuru**: Renkli kalp animasyonları
+- **Özel Mesaj**: Kişiselleştirilebilir romantik mesajlar
+- **Gizli Özellikler**: Sağ tıklama menüsü ve özel tıklama kombinasyonları
+- **Responsive Tasarım**: Mobil ve masaüstü için optimize edilmiş
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🚀 Nasıl Kullanılır
 
-## Deployment
+### Kurulum
 
-Your project is live at:
+1. **Projeyi Klonlayın**:
+   ```bash
+   git clone https://github.com/teymensel/heartbouquet.git
+   cd heartbouquet
+   ```
 
-**[https://vercel.com/blgsyr5461-9700s-projects/v0-beautiful-flower-bouquet](https://vercel.com/blgsyr5461-9700s-projects/v0-beautiful-flower-bouquet)**
+2. **Bağımlılıkları Yükleyin**:
+   ```bash
+   npm install
+   # veya
+   pnpm install
+   ```
 
-## Build your app
+3. **Uygulamayı Çalıştırın**:
+   ```bash
+   npm run dev
+   # veya
+   pnpm dev
+   ```
 
-Continue building your app on:
+4. **Tarayıcınızda Açın**: `http://localhost:3000`
 
-**[https://v0.app/chat/c2jIp9fXoXM](https://v0.app/chat/c2jIp9fXoXM)**
+### Kullanım
 
-## How It Works
+1. **Hediye Kutusu**: Ana sayfada görünen hediye kutusuna tıklayın
+2. **Animasyon**: Kutunun açılması ve çiçeklerin görünmesi
+3. **Mesaj**: Kalp animasyonundan sonra romantik mesajınız görünecek
+4. **Gizli Özellikler**:
+   - **Sağ Tıklama**: Yapımcı bilgisi ve sistem bilgileri için
+   - **Shift + I**: Bilgi penceresini açar
+   - **Çoklu Tıklama**: Özel sürpriz mesaj için hızlı tıklayın
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### Kişiselleştirme
+
+`config.js` dosyasını düzenleyerek uygulamayı kişiselleştirebilirsiniz:
+
+```javascript
+export const config = {
+  names: {
+    first: "Sevgili",
+    second: "Adınız"
+  },
+  specialMessage: {
+    clickCount: 5, // Özel mesaj için gereken tıklama sayısı
+    timeWindow: 2000 // Tıklama zaman aralığı (ms)
+  },
+  app: {
+    name: "Kalp Buketi",
+    version: "1.0.0",
+    developer: "Teymensel"
+  }
+}
+```
+
+## 🛠️ Teknoloji Stack
+
+- **Next.js 16**: React framework
+- **TypeScript**: Tip güvenliği
+- **Tailwind CSS**: Stil sistemi
+- **Radix UI**: Erişilebilir UI bileşenleri
+- **Lucide React**: İkonlar
+- **Vercel Analytics**: Analitik
+
+## 📱 Özellikler
+
+- **Tam Responsive**: Tüm cihazlarda mükemmel görünüm
+- **Erişilebilir**: Klavye ve fare navigasyonu
+- **Performanslı**: Optimize edilmiş animasyonlar
+- **Modern UI**: Şık ve kullanıcı dostu tasarım
+
+## 🤝 Katkıda Bulunma
+
+Bu proje açık kaynak kodludur. Katkıda bulunmak için:
+
+1. Fork edin
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add amazing feature'`)
+4. Push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+
+## 👨‍💻 Geliştirici
+
+[Teymensel](https://teymensel.com) tarafından geliştirilmiştir.
+
+---
+
+**Not**: Bu uygulama sevgiliniz için özel olarak hazırlanmıştır. Mesajları ve isimleri config.js'den değiştirebilirsiniz.
