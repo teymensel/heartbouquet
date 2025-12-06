@@ -1,6 +1,6 @@
 // Uygulama konfigürasyonu
 export const config = {
-  // Özel mesaj için tıklama ayarları
+  // Özel mesaj için tıklama ayarlar
   specialMessage: {
     timeWindow: 3000, // milisaniye (3 saniye)
     clickCount: 10,   // tıklama sayısı
